@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "ذِكرى",
+    "slug": "zikra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "zikra",
+    "plugins": [
+      ["onesignal-expo-plugin", {"mode": "production"}],
+      "expo-router",
+      ["expo-image-picker", {"photosPermission": "يحتاج ذِكرى إلى الوصول إلى الصور لاختيار الذكريات."}]
+    ],
+    "android": {
+      "package": "com.zikra.app",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "permissions": ["INTERNET", "POST_NOTIFICATIONS"]
+    },
+    "experiments": {"typedRoutes": false},
+    "extra": {
+      "oneSignalAppId": "7629f762-8d70-4f11-b1c9-0c96903331a6",
+      "supabaseUrl": "https://zmssushpynpsrlkswltf.supabase.co",
+      "supabaseAnonKey": "sb_publishable_oZWjUnNbz4aCURnHiGperw_aqNzm3wB",
+      "eas": {"projectId": "2dc50fbc-8ed2-417c-8d2b-56c73b9bafe5"}
+    }
+  }
+}
