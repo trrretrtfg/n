@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1097477151481",
+    "project_id": "zikra-544f6",
+    "storage_bucket": "zikra-544f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097477151481:android:529b6f42bbe8d26fd56028",
+        "android_client_info": {
+          "package_name": "com.zikra.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDIaFRSn0hvW3kf1rgIKMsTx_VEWtR_dI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
